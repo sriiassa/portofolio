@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asa - Personal Portfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- gfont -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <!-- sidebar -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.jpg" alt="Sri Wijayanti">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sri Wijayanti">Sri Wijayanti</h1>
+          <p class="title">Informatics Engineering</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:srikdw7@gmail.com" class="contact-link">srikdw7@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+6285792551760" class="contact-link">+62 85792551760</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Denpasar, Bali</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://instagram.com/sriiassa._" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/kadek-sri-dwi-wijayanti" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+
+    <div class="main-content">
+      <!-- navbar -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- about -->
+      <article class="about active" data-page="about">
+        <header>
+          <h3 class="h3 article-title">My Profile</h3>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am an active student at the Institut Bisnis dan Teknologi Indonesia (INSTIKI) with a strong interest in
+            software development and interface design. My focus is on creating modern, user-friendly websites using
+            WordPress and designing intuitive UI/UX with Figma. Over the past two years, I have gained valuable
+            experience as a Developer Staff at PT Asanka and have participated in various activities as an Event
+            Organizer. These experiences have helped me enhance my creativity, teamwork, time management, and sense of
+            responsibility in every task assigned.
+          </p>
+
+          <p>
+            I believe that technology is not only about building functional solutions but also about creating meaningful
+            experiences and delivering positive value to its users. With a passion for learning, strong commitment, and
+            a desire for continuous growth, I strive to produce work that is impactful and beneficial to the community
+            and environment around me.
+          </p>
+        </section>
+
+        <!-- skill -->
+        <section class="skill">
+          <h3 class="h3 skill-title">Skills</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <div class="skill-icon-box">
+                <img src="./assets/images/icon-design.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="skill-content-box">
+                <h4 class="h4 skill-item-title">Web design</h4>
+                <p class="skill-item-text">
+                  Designing modern, clean, and professional website layouts.
+                </p>
+              </div>
+            </li>
+
+            <li class="skill-item">
+              <div class="skill-icon-box">
+                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="skill-content-box">
+                <h4 class="h4 skill-item-title">Web development</h4>
+                <p class="skill-item-text">
+                  Building and maintaining high-quality, responsive websites.
+                </p>
+              </div>
+            </li>
+
+            <li class="skill-item">
+              <div class="skill-icon-box">
+                <img src="./assets/images/icon-vr.png" alt="vr icon" width="40">
+              </div>
+
+              <div class="skill-content-box">
+                <h4 class="h4 skill-item-title">Digitalization</h4>
+                <p class="skill-item-text">
+                  Creating engaging digital experiences using 360° or 3D technologies.
+                </p>
+              </div>
+            </li>
+
+            <li class="skill-item">
+              <div class="skill-icon-box">
+                <img src="./assets/images/icon-comunity.png" alt="comunity icon" width="40">
+              </div>
+
+              <div class="skill-content-box">
+                <h4 class="h4 skill-item-title">Event Management</h4>
+                <p class="skill-item-text">
+                  Organizing and coordinating events effectively from planning to execution.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Teknologi -->
+        <section class="techs">
+          <h3 class="h3 techs-title">Technology</h3>
+          <ul class="techs-list has-scrollbar">
+            <li class="techs-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="tech logo">
+              </a>
+            </li>
+            <li class="techs-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="tech logo">
+              </a>
+            </li>
+            <li class="techs-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="tech logo">
+              </a>
+            </li>
+            <li class="techs-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="tech logo">
+              </a>
+            </li>
+            <li class="techs-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="tech logo">
+              </a>
+            </li>
+            <li class="techs-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="tech logo">
+              </a>
+            </li>
+            <li class="techs-item">
+              <a href="#">
+                <img src="./assets/images/logo-7-color.png" alt="tech logo">
+              </a>
+            </li>
+            <li class="techs-item">
+              <a href="#">
+                <img src="./assets/images/logo-8-color.png" alt="tech logo">
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+      <!-- resume -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h3 class="h3 article-title">Resume</h3>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Institut Bisnis dan Teknologi Indonesia</h4>
+              <span>2022 - Now</span>
+              <p class="timeline-text">
+                Department of Informatics
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SMK Negeri 1 Denpasar</h4>
+              <span>2020 - 2022</span>
+              <p class="timeline-text">
+                Software Engineering Major
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experiences</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Mobile Development Cohort | Bangkit Academy</h4>
+              <span>Sept 2024 - Jan 2025</span>
+              <p class="timeline-text">
+                Having experience in learning Android-based application development using the Kotlin programming
+                language.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Assistant Lecturer | INSTIKI</h4>
+              <span>Mar 2024 - Aug 2024</span>
+              <p class="timeline-text">
+                Has experience in guiding students in the Basic Web Programming course practicum.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Development Staff | PT Asanka</h4>
+              <span>Aug 2021 - Jan 2023</span>
+              <p class="timeline-text">
+                Having experience in designing and developing responsive, user-friendly, and visually appealing websites
+                tailored to clients’ needs.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">Progress Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="80">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Digitalization</h5>
+                <data value="80">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Event Management</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- portofolio -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h3 class="h3 article-title">Portfolio</h3>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Digitalization</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Event Management</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Digitalization</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Event Management</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="digitalization">
+              <a href="https://xperia.cloud/museumpasifika/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpeg" alt="museum-pasifika" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Museum Pasifika</h3>
+                <p class="project-category">Digitalization</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+      <!-- contact -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h3 class="h3 article-title">Contact</h3>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63107.17318545005!2d115.1830736790428!3d-8.672681091946806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409b0e5e80db%3A0xe27334e8ccb9374a!2sDenpasar%2C%20Kota%20Denpasar%2C%20Bali!5e0!3m2!1sid!2sid!4v1762275682539!5m2!1sid!2sid"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full Name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+
+
+  <!-- custom js -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
